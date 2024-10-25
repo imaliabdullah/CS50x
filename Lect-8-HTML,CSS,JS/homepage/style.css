@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(img/urban-boy-sitting-on-car-4k-69.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+
+.logo {
+    float: left;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; /* Adjust the width of the logo */
+    height: 100px; /* Maintain aspect ratio */
+    vertical-align: middle;
+}
+
+.menu {
+    width: 400px;
+    float: right;
+    height: 70px;
+}
+
+ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 38px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: black;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.content h1 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .title{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 3px;
+    color: burlywood;
+    
+}
+
+.content .paragraph{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.content .hire{
+    width: 160px;
+    height: 40px;
+    background: burlywood;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .hire a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+
+.hire:hover{
+    background-color: white;
+}
+
+
+.introduction {
+    width: 100%;
+    background: linear-gradient(to top, black 50%, black 50%);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.introduction h2{
+    padding-top: 100px;
+    padding-left: 100px;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.para{
+    font-size: 18px;
+    padding-top: 40px;
+    padding-left: 100px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.image-style {
+    float: right;
+    margin-top: 180px;
+    margin-right: 90px;
+    width: 300px; /* Adjust the width as needed */
+    border: 2px solid #ccc; /* Example border style */
+    border-radius: 5px; /* Example border radius */
+}
+
+
+
+.project {
+    width: 100%;
+    background: linear-gradient(to top, black 50%, black 50%);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.project h2{
+    padding-left: 100px;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
